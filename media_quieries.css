@@ -1,18 +1,26 @@
 @media screen and (min-width: 1000px) {
+
+    body {
+        display: flex;
+    }
+
     header {
         width: 20%;
-        display: inline-flex;
+        display: inline-block;
+        text-align: right;
     }
+
     header ul {
         flex-direction: column;
         text-align: right;
     }
+
     main {
         width: 50%;
-        display: inline-block;
+
     }
     aside {
         width: 20%;
-        display: inline-flex;
+        display: inline-block;
     }
 }
